@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Test case]">
+  <test thread-count="5" name=" Admin Login with Valid credentials Test Case(failed)">
+    <parameter name="uname" value="Admin"/>
+    <parameter name="pwd" value="Qedge123!@#"/>
+    <classes>
+      <class name="testcases.AdminLoginwithValidCredentialsTestCase">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="adminlogin"/>
+        </methods>
+      </class> <!-- testcases.AdminLoginwithValidCredentialsTestCase -->
+    </classes>
+  </test> <!--  Admin Login with Valid credentials Test Case(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Test case] -->
